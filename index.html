@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | Insure landing page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <img src="images/logo.svg" alt="Logo">
+    </div>
+
+    <nav class="menu">
+       <ul class="menu-list"> <!-- -->
+        <li class="menu-item"><a href="#">How we work</a></li>
+        <li class="menu-item"><a href="#">Blog</a></li>
+        <li class="menu-item"><a href="#">Account</a></li>
+        <li class="menu-item"><button class="header-button">View plans</button></li>
+      </ul>
+    </nav>
+
+    <a id="menuBtn" class="menu-logo" aria-expanded="false" aria-controls="menu">
+      <img src="images/icon-hamburger.svg" alt="">
+    </a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1 class="hero-heading">Humanizing your insurance.</h1>
+        <p class="hero-paragraph">
+          Get your life insurance coverage easier and faster. We blend our expertise
+          and technology to help you find the plan that’s right for you. Ensure you
+          and your loved ones are protected.
+        </p>
+        <button class="hero-button">View plans</button>
+      </div>
+
+      <div class="hero-image">
+        <picture>
+          <source srcset="images/image-intro-mobile.jpg" media="(min-width: )">
+          <img src="images/image-intro-desktop.jpg" alt="Hero Image">
+        </picture>
+      </div>
+    </section>
+
+    <section class="centered-section">
+      <h2 class="centered-heading">We’re different</h2>
+
+      <div class="centered-content">
+
+        <div class="centered-block">
+          <img src="images/icon-snappy-process.svg" alt="Service 1">
+          <h3 class="block-heading">Snappy Process</h3>
+          <p class="block-paragraph">
+            Our application process can be completed in minutes, not hours. Don’t get
+            stuck filling in tedious forms.
+          </p>
+        </div>
+
+        <div class="centered-block">
+          <img src="images/icon-affordable-prices.svg" alt="Service 2">
+          <h3 class="block-heading">Affordable Prices</h3>
+          <p class="block-paragraph">
+            We don’t want you worrying about high monthly costs. Our prices may be low,
+            but we still offer the best coverage possible.
+          </p>
+        </div>
+
+        <div class="centered-block">
+          <img src="images/icon-people-first.svg" alt="Service 3">
+          <h3 class="block-heading">People First</h3>
+          <p class="block-paragraph">
+            Our plans aren’t full of conditions and clauses to prevent payouts. We make
+            sure you’re covered when you need it.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="services-section">
+
+      <div class="content-block">
+        <h2 class="services-heading">Find out more about how we work</h2>
+        <button class="services-button">How we work</button>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+
+    <div class="footer-block">
+      <img src="images/logo.svg" alt="Footer Logo">
+      <ul class="social-icons">
+        <li><a href="#"><img src="images/icon-facebook.svg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="images/icon-twitter.svg" alt="Twitter"></a></li>
+        <li><a href="#"><img src="images/icon-pinterest.svg" alt="Pinterest"></a></li>
+        <li><a href="#"><img src="images/icon-instagram.svg" alt="Instagram"></a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="footer-list our-company">
+        <h3 class="title-list">Our company</h3>
+        <ul>
+          <li><a href="#">How we work</a></li>
+          <li><a href="#">Why Insure?</a></li>
+          <li><a href="#">View plans</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </div>
+      <div class="footer-list help-me">
+        <h3 class="title-list">Help me</h3>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Terms of use</a></li>
+          <li><a href="#">Privacy policy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </div>
+      <div class="footer-list contact">
+        <h3 class="title-list">Contact</h3>
+        <ul>
+          <li><a href="#">Sales</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Live chat</a></li>
+        </ul>
+      </div>
+      <div class="footer-list others">
+        <h3 class="title-list">Others</h3>
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Press</a></li>
+          <li><a href="#">Licenses</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <div>
+    <p class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/Hamid997" target="_blank">Abdelhamid Birouk</a>.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
